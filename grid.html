@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid</title>
+        <link rel="stylesheet" href="grid.css">
+    </head>
+    <body>
+        <div style="display: grid; grid-template-columns:100px 100px;">
+            <div style="background-color:lightgreen;">
+                div 1
+            </div>
+            <div style="background-color:lightpink;">
+                div 2<p>text</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 30px; display: grid; grid-template-columns:100px 100px;">
+            <div style="background-color:lightgreen;">
+                div 1
+            </div>
+            <div style="background-color:lightpink;">
+                div 2<p>text</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 30px; display: grid; grid-template-columns: 200px 75px;">
+            <div style="background-color: lightgreen;">
+                200px
+            </div>
+            <div style="background-color: lightpink;">
+                75px
+            </div>
+        </div>
+
+        <div style="margin-top: 30px; display: grid; grid-template-columns: 50px 1fr 75px;">
+            <div style="background-color: lightgreen;">
+                col1
+            </div>
+            <div style="background-color: lightpink;">
+                col2
+            </div>
+            <div style="background-color: lightgreen;">
+                col3
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="lightpink">col1</div>
+            <div class="lightpink">col2</div>
+            <div class="lightpink">col3</div>
+            <div class="lightpink">col4</div>
+            <div class="lightpink">col1</div>
+            <div class="lightpink">col2</div>
+            <div class="lightpink">col3</div>
+            <div class="lightpink">col4</div>
+        </div>
+    </body>
+</html>

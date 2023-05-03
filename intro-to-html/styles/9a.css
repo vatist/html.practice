@@ -1,0 +1,15 @@
+div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+}
+
+.Red-square {
+    background-color: red; 
+}
+
+.Green-circle {
+    background-color: green;
+    border-radius: 50%;
+}

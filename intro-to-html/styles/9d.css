@@ -1,0 +1,20 @@
+.explanation {
+    border-style: solid;
+    background-color: black;
+    width: 375px;
+    padding-left: 12px;
+}
+
+p {
+    font-family: Arial;
+}
+
+.Install {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Add {
+    color: rgb(132, 127, 127);
+}
